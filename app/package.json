@@ -1,0 +1,11 @@
+{
+  "name": "wisecow-app",
+  "version": "1.0.0",
+  "description": "Wisecow test app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Saqlain",
+  "license": "ISC"
+}
