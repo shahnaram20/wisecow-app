@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: wisecow-deployment
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: wisecow
@@ -13,8 +13,8 @@ spec:
         app: wisecow
     spec:
       containers:
-        - name: wisecow-app
-          image: smusthaf20/wisecow-app:latest
+        - name: wisecow
+          image: smusthaf20/wisecow:latest
           ports:
             - containerPort: 3000
 
