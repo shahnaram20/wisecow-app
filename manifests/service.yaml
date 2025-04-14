@@ -9,6 +9,5 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-      nodePort: 30001  # Optional: you can specify a port, or let Kubernetes choose it
-  type: NodePort
+  type: ClusterIP
 
